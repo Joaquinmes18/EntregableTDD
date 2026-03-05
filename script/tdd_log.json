@@ -46,9 +46,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "66e12a8a54753337caa16cc218c3eada7a139894",
     "commitName": "refact:Cambie la funcion precioneto",
     "commitTimestamp": 1772717440709,
     "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Merge branch 'main' of https://github.com/Joaquinmes18/EntregableTDD",
+    "commitTimestamp": 1772718958312,
+    "testId": 2
   }
 ]

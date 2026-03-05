@@ -1,5 +1,5 @@
-function precioNeto(cantidad, precio) {
+function PrecioNeto(cantidad, precio) {
     return  cantidad * precio;
 }
 
-export default precioNeto;
+export default PrecioNeto;
