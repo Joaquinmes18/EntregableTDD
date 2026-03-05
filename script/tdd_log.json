@@ -16,9 +16,39 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "21e69c75d8bb52358ba2dc94dca9bce874fcb052",
     "commitName": "implementacion de item + su test",
     "commitTimestamp": 1772716606347,
     "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1772717217992,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1772717242295,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1772717388182,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refact:Cambie la funcion precioneto",
+    "commitTimestamp": 1772717440709,
+    "testId": 1
   }
 ]

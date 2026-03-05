@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "21e69c75d8bb52358ba2dc94dca9bce874fcb052",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-05T13:16:44.000Z",
       "message": "implementacion de item + su test",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/21e69c75d8bb52358ba2dc94dca9bce874fcb052"
     },
     "stats": {
       "total": 12,
       "additions": 12,
       "deletions": 0,
+      "date": "2026-03-05"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Rubén Cordero",
+    "commit": {
+      "date": "2026-03-05T13:30:38.000Z",
+      "message": "refact:Cambie la funcion precioneto",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
       "date": "2026-03-05"
     },
     "coverage": 100,
