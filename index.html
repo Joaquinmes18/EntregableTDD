@@ -4,16 +4,31 @@
     <title>Sumador</title>
   </head>
   <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
+    <h2>Calcular Precio Neto</h2>
+    <form id="neto-form">
+      <label for="cantidad">Cantidad:</label>
+      <input type="number" id="cantidad" />
+      <label for="precio">Precio por unidad:</label>
+      <input type="number" id="precio" />
+      <button type="button" id="calcular-neto">Calcular Precio Neto</button>
     </form>
-    <div id="resultado-div"></div>
+
+    <script>
+      document.getElementById('calcular-neto').addEventListener('click', () => {
+        const cantidad = parseFloat(document.getElementById('cantidad').value);
+        const precio = parseFloat(document.getElementById('precio').value);
+
+        if (!isNaN(cantidad) && !isNaN(precio)) {
+          const precioNeto = cantidad * precio;
+          alert(`El precio neto es: ${precioNeto}`);
+        } else {
+          alert('Por favor, ingrese valores válidos para cantidad y precio.');
+        }
+      });
+    </script>
 
     <script type="module" src="./src/presenter.js"></script>
+    <script type="module" src="./src/item.js"></script>
+    <script type="module" src="./src/impuesto.js"></script>
   </body>
 </html>

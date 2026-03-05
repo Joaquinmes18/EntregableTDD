@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cf3a73b00118eb58210868ddd9f16a81e4527f66",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-05T13:55:56.000Z",
       "message": "Merge branch 'main' of https://github.com/Joaquinmes18/EntregableTDD",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/cf3a73b00118eb58210868ddd9f16a81e4527f66"
     },
     "stats": {
       "total": 35,
       "additions": 31,
       "deletions": 4,
+      "date": "2026-03-05"
+    },
+    "coverage": 61.54,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Rubén Cordero",
+    "commit": {
+      "date": "2026-03-05T14:00:28.000Z",
+      "message": "UI del precio neto",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 27315,
+      "additions": 4336,
+      "deletions": 22979,
       "date": "2026-03-05"
     },
     "coverage": 61.54,

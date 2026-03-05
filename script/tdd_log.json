@@ -52,9 +52,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cf3a73b00118eb58210868ddd9f16a81e4527f66",
     "commitName": "Merge branch 'main' of https://github.com/Joaquinmes18/EntregableTDD",
     "commitTimestamp": 1772718958312,
     "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "UI del precio neto",
+    "commitTimestamp": 1772719229667,
+    "testId": 3
   }
 ]
