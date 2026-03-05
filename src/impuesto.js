@@ -15,6 +15,7 @@ if (porcentajeImpuesto == "AL") {
 if (porcentajeImpuesto == "CA") {
         UT==0.0825
 }
-    return PrecioNeto * porcentajeImpuesto;
+    Total = PrecioNeto * porcentajeImpuesto;
+    return Total + PrecioNeto;
 }
 export default PrecioTotal;

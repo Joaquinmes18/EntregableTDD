@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5bf0655d756d6ca057340f842232b2ec299e5a07",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-05T14:00:28.000Z",
       "message": "UI del precio neto",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/5bf0655d756d6ca057340f842232b2ec299e5a07"
     },
     "stats": {
       "total": 27315,
@@ -74,5 +74,24 @@
     "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Joaquinmes18",
+    "commit": {
+      "date": "2026-03-05T14:02:33.000Z",
+      "message": "implementacion de descuento",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 32,
+      "deletions": 2,
+      "date": "2026-03-05"
+    },
+    "coverage": 57.69,
+    "test_count": 4,
+    "failed_tests": 2,
+    "conclusion": "failure"
   }
 ]

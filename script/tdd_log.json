@@ -58,9 +58,15 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5bf0655d756d6ca057340f842232b2ec299e5a07",
     "commitName": "UI del precio neto",
     "commitTimestamp": 1772719229667,
     "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "implementacion de descuento",
+    "commitTimestamp": 1772719355655,
+    "testId": 4
   }
 ]
