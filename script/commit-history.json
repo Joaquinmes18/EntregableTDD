@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "21e69c75d8bb52358ba2dc94dca9bce874fcb052",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-05T13:16:44.000Z",
       "message": "implementacion de item + su test",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/21e69c75d8bb52358ba2dc94dca9bce874fcb052"
     },
     "stats": {
       "total": 12,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Joaquinmes18",
+    "commit": {
+      "date": "2026-03-05T13:37:04.000Z",
+      "message": "agregamos impuesto",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 31,
+      "deletions": 4,
+      "date": "2026-03-05"
+    },
+    "coverage": 61.54,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

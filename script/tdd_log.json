@@ -16,9 +16,63 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "21e69c75d8bb52358ba2dc94dca9bce874fcb052",
     "commitName": "implementacion de item + su test",
     "commitTimestamp": 1772716606347,
     "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1772717451288,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1772717514993,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1772717557660,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1772717659269,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1772717684469,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1772717725886,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "agregamos impuesto",
+    "commitTimestamp": 1772717826487,
+    "testId": 1
   }
 ]
