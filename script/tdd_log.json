@@ -106,9 +106,39 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8d77eced5b0664175bb7ece127ef258cbd9e7312",
     "commitName": "feat: calcular impuesto según el estado con CA por defecto",
     "commitTimestamp": 1773106459153,
     "testId": 7
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1773107349154,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1773107450906,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1773107493033,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento por volumen de compra antes de impuestos",
+    "commitTimestamp": 1773107555091,
+    "testId": 8
   }
 ]

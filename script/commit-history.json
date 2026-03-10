@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8d77eced5b0664175bb7ece127ef258cbd9e7312",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-10T01:34:17.000Z",
       "message": "feat: calcular impuesto según el estado con CA por defecto",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/8d77eced5b0664175bb7ece127ef258cbd9e7312"
     },
     "stats": {
       "total": 13,
@@ -147,6 +147,25 @@
       "date": "2026-03-10"
     },
     "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Rubén Cordero",
+    "commit": {
+      "date": "2026-03-10T01:52:33.000Z",
+      "message": "feat: aplicar descuento por volumen de compra antes de impuestos",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 95,
+      "additions": 22,
+      "deletions": 73,
+      "date": "2026-03-10"
+    },
+    "coverage": 80,
     "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
