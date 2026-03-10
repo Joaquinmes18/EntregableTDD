@@ -218,9 +218,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9b9d243d91dbae7b34bb560f8d357e9f4aaa308d",
     "commitName": "feat: reducir costo de envio aplicando beneficios por tipo de cliente",
     "commitTimestamp": 1773110525025,
     "testId": 11
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1773110649321,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1773110914840,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuentos de monto fijo bajo condiciones de cliente, precio y categoria",
+    "commitTimestamp": 1773111018555,
+    "testId": 12
   }
 ]

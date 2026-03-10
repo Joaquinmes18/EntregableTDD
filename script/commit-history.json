@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9b9d243d91dbae7b34bb560f8d357e9f4aaa308d",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-10T02:42:03.000Z",
       "message": "feat: reducir costo de envio aplicando beneficios por tipo de cliente",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/9b9d243d91dbae7b34bb560f8d357e9f4aaa308d"
     },
     "stats": {
       "total": 13,
@@ -224,6 +224,25 @@
     },
     "coverage": 78.05,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Rubén Cordero",
+    "commit": {
+      "date": "2026-03-10T02:50:17.000Z",
+      "message": "feat: aplicar descuentos de monto fijo bajo condiciones de cliente, precio y categoria",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 13,
+      "deletions": 2,
+      "date": "2026-03-10"
+    },
+    "coverage": 80.43,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

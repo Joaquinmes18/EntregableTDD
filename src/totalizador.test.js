@@ -21,4 +21,7 @@ describe("Totalizador de Ventas", () => {
   it("deberia aplicar un descuento en el costo de envio si el cliente es Recurrente", () => {
     expect(calcularTotal(2, 10, 'CA', 'Varios', 15, 'Recurrente')).toEqual(28.615);
   });
+  it("deberia restar $100 si es Recurrente, compra Alimentos y el neto supera 3000", () => {
+    expect(calcularTotal(1000, 4, 'CA', 'Alimentos', 0, 'Recurrente')).toEqual(3926.9);
+  });
 });

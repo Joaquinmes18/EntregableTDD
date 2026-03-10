@@ -51,8 +51,16 @@ function calcularTotal(cantidad, precio, estado = 'CA', categoria = 'Varios', pe
   const porcentajeDescuentoEnvio = descEnvioCliente[tipoCliente] || 0;
   
   const costoEnvioTotal = costoEnvioBase - (costoEnvioBase * porcentajeDescuentoEnvio);
-
-  return Number((netoConDescuento + impuestoAplicado + costoEnvioTotal).toFixed(3));
+  let descuentoFijo = 0;
+  
+  if (tipoCliente === 'Recurrente' && neto > 3000 && categoria === 'Alimentos') {
+    descuentoFijo = 100;
+  } 
+  else if (tipoCliente === 'Especial' && neto > 7000 && categoria === 'Electrónicos') {
+    descuentoFijo = 200;
+  }
+  
+  return Number((netoConDescuento + impuestoAplicado + costoEnvioTotal - descuentoFijo).toFixed(3));
 }
 
 module.exports = calcularTotal;
