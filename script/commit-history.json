@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3926bff1b89f25d5e19e78ad6a933fb7573118dc",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-10T01:52:33.000Z",
       "message": "feat: aplicar descuento por volumen de compra antes de impuestos",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/3926bff1b89f25d5e19e78ad6a933fb7573118dc"
     },
     "stats": {
       "total": 95,
@@ -167,6 +167,25 @@
     },
     "coverage": 80,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Rubén Cordero",
+    "commit": {
+      "date": "2026-03-10T02:00:45.000Z",
+      "message": "feat: integrar categoria de producto con impuestos y descuentos adicionales",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 24,
+      "deletions": 5,
+      "date": "2026-03-10"
+    },
+    "coverage": 82.61,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

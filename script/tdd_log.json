@@ -136,9 +136,47 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3926bff1b89f25d5e19e78ad6a933fb7573118dc",
     "commitName": "feat: aplicar descuento por volumen de compra antes de impuestos",
     "commitTimestamp": 1773107555091,
     "testId": 8
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1773107750501,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1773107924802,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1773107939816,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1773108001555,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: integrar categoria de producto con impuestos y descuentos adicionales",
+    "commitTimestamp": 1773108046495,
+    "testId": 9
   }
 ]

@@ -12,4 +12,7 @@ describe("Totalizador de Ventas", () => {
   it("deberia aplicar un 3% de descuento para ordenes de 1000 o mas, y luego aplicar el impuesto", () => {
     expect(calcularTotal(400, 3, 'TX')).toEqual(1236.75);
   });
+  it("deberia sumar los descuentos e impuestos adicionales segun la categoria elegida", () => {
+    expect(calcularTotal(20, 3, 'TX', 'Alimentos')).toEqual(62.475);
+  });
 });
