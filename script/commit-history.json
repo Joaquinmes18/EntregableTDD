@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f4c86decabdcd6cc4a0097e10eced3ab633b8900",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-10T02:57:51.000Z",
       "message": "fix: lanzar error ante la introduccion de valores negativos en las entradas",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/f4c86decabdcd6cc4a0097e10eced3ab633b8900"
     },
     "stats": {
       "total": 8,
@@ -261,6 +261,25 @@
       "date": "2026-03-10"
     },
     "coverage": 81.25,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Rubén Cordero",
+    "commit": {
+      "date": "2026-03-10T03:05:20.000Z",
+      "message": "fix: conectar motor de calculo con interfaz web en HTML y JS",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
+      "date": "2026-03-10"
+    },
+    "coverage": 81.63,
     "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"

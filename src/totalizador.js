@@ -68,4 +68,7 @@ function calcularTotal(cantidad, precio, estado = 'CA', categoria = 'Varios', pe
   return Number((netoConDescuento + impuestoAplicado + costoEnvioTotal - descuentoFijo).toFixed(3));
 }
 
-module.exports = calcularTotal;
+
+if (typeof module !== 'undefined') {
+  module.exports = calcularTotal;
+}

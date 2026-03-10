@@ -246,9 +246,15 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f4c86decabdcd6cc4a0097e10eced3ab633b8900",
     "commitName": "fix: lanzar error ante la introduccion de valores negativos en las entradas",
     "commitTimestamp": 1773111472770,
     "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: conectar motor de calculo con interfaz web en HTML y JS",
+    "commitTimestamp": 1773111922258,
+    "testId": 14
   }
 ]
