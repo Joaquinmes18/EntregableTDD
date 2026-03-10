@@ -1,34 +1,79 @@
 <!DOCTYPE html>
-<html xml:lang="es">
-  <head>
-    <title>Sumador</title>
-  </head>
-  <body>
-    <h2>Calcular Precio Neto</h2>
-    <form id="neto-form">
-      <label for="cantidad">Cantidad:</label>
-      <input type="number" id="cantidad" />
-      <label for="precio">Precio por unidad:</label>
-      <input type="number" id="precio" />
-      <button type="button" id="calcular-neto">Calcular Precio Neto</button>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Totalizador de Ventas</title>
+</head>
+<body>
+
+    <h1>Calculadora de Ventas</h1>
+    
+    <form id="ventas-form">
+        <div>
+            <label for="cantidad">Cantidad de ítems:</label>
+            <input type="number" id="cantidad" required min="0">
+        </div>
+        <br>
+        
+        <div>
+            <label for="precio">Precio por ítem ($):</label>
+            <input type="number" id="precio" step="0.01" required min="0">
+        </div>
+        <br>
+
+        <div>
+            <label for="estado">Estado:</label>
+            <select id="estado">
+                <option value="CA">California (CA)</option>
+                <option value="UT">Utah (UT)</option>
+                <option value="NV">Nevada (NV)</option>
+                <option value="TX">Texas (TX)</option>
+                <option value="AL">Alabama (AL)</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="categoria">Categoría de Producto:</label>
+            <select id="categoria">
+                <option value="Varios">Varios</option>
+                <option value="Alimentos">Alimentos</option>
+                <option value="Bebidas alcohólicas">Bebidas alcohólicas</option>
+                <option value="Material de escritorio">Material de escritorio</option>
+                <option value="Muebles">Muebles</option>
+                <option value="Electrónicos">Electrónicos</option>
+                <option value="Vestimenta">Vestimenta</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="peso">Peso Volumétrico (por unidad):</label>
+            <input type="number" id="peso" step="0.1" value="0" min="0">
+        </div>
+        <br>
+
+        <div>
+            <label for="cliente">Tipo de Cliente:</label>
+            <select id="cliente">
+                <option value="Normal">Normal</option>
+                <option value="Recurrente">Recurrente</option>
+                <option value="Antiguo Recurrente">Antiguo Recurrente</option>
+                <option value="Especial">Especial</option>
+            </select>
+        </div>
+        <br>
+        
+        <button type="submit">Calcular Total</button>
     </form>
 
-    <script>
-      document.getElementById('calcular-neto').addEventListener('click', () => {
-        const cantidad = parseFloat(document.getElementById('cantidad').value);
-        const precio = parseFloat(document.getElementById('precio').value);
+    <div id="resultado-box" style="display: none;">
+        <h3>Resumen de la Orden:</h3>
+        <p id="mensaje-resultado"></p>
+    </div>
 
-        if (!isNaN(cantidad) && !isNaN(precio)) {
-          const precioNeto = cantidad * precio;
-          alert(`El precio neto es: ${precioNeto}`);
-        } else {
-          alert('Por favor, ingrese valores válidos para cantidad y precio.');
-        }
-      });
-    </script>
+    <script src="./src/totalizador.js"></script>
+    <script src="./src/presenter.js"></script>
 
-    <script type="module" src="./src/presenter.js"></script>
-    <script type="module" src="./src/item.js"></script>
-    <script type="module" src="./src/impuesto.js"></script>
-  </body>
+</body>
 </html>

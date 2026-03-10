@@ -252,9 +252,15 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e5c4523acff6a3268f1ba769aa47b9c5f6bca334",
     "commitName": "fix: conectar motor de calculo con interfaz web en HTML y JS",
     "commitTimestamp": 1773111922258,
     "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: HTML Y PRESENTER",
+    "commitTimestamp": 1773113150747,
+    "testId": 15
   }
 ]

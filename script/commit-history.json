@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e5c4523acff6a3268f1ba769aa47b9c5f6bca334",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-10T03:05:20.000Z",
       "message": "fix: conectar motor de calculo con interfaz web en HTML y JS",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/e5c4523acff6a3268f1ba769aa47b9c5f6bca334"
     },
     "stats": {
       "total": 5,
@@ -280,6 +280,25 @@
       "date": "2026-03-10"
     },
     "coverage": 81.63,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Rubén Cordero",
+    "commit": {
+      "date": "2026-03-10T03:25:49.000Z",
+      "message": "fix: HTML Y PRESENTER",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 144,
+      "additions": 102,
+      "deletions": 42,
+      "date": "2026-03-10"
+    },
+    "coverage": 80.39,
     "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"

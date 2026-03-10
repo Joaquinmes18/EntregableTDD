@@ -1,15 +1,27 @@
-import sumar from "./sumador";
+// ELIMINAMOS LA LÍNEA DEL IMPORT
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const form = document.getElementById('ventas-form');
+const resultadoBox = document.getElementById('resultado-box');
+const mensajeResultado = document.getElementById('mensaje-resultado');
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+    const cantidad = parseInt(document.getElementById('cantidad').value);
+    const precio = parseFloat(document.getElementById('precio').value);
+    const estado = document.getElementById('estado').value;
+    const categoria = document.getElementById('categoria').value;
+    const peso = parseFloat(document.getElementById('peso').value);
+    const cliente = document.getElementById('cliente').value;
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+    try {
+        const totalFinal = calcularTotal(cantidad, precio, estado, categoria, peso, cliente);
+
+        mensajeResultado.innerHTML = "Total a Pagar: $" + totalFinal;
+        resultadoBox.style.display = "block";
+
+    } catch (error) {
+        mensajeResultado.innerHTML = "Error: " + error.message;
+        resultadoBox.style.display = "block";
+    }
 });
