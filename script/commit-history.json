@@ -114,12 +114,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "2773718c8c7bb8830cb022477f9fd43ebd619c22",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-10T01:26:17.000Z",
       "message": "fix: test calcular precio neto multiplicando cantidad por precio",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/2773718c8c7bb8830cb022477f9fd43ebd619c22"
     },
     "stats": {
       "total": 18,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Rubén Cordero",
+    "commit": {
+      "date": "2026-03-10T01:34:17.000Z",
+      "message": "feat: calcular impuesto según el estado con CA por defecto",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

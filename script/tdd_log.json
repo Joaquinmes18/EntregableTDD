@@ -92,9 +92,23 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2773718c8c7bb8830cb022477f9fd43ebd619c22",
     "commitName": "fix: test calcular precio neto multiplicando cantidad por precio",
     "commitTimestamp": 1773105978614,
     "testId": 6
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1773106344240,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto según el estado con CA por defecto",
+    "commitTimestamp": 1773106459153,
+    "testId": 7
   }
 ]
