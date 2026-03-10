@@ -30,7 +30,8 @@ function obtenerCostoEnvioUnitario(peso) {
   return 0; 
 }
 
-function calcularTotal(cantidad, precio, estado = 'CA', categoria = 'Varios', pesoVolumetrico = 0) {
+function calcularTotal(cantidad, precio, estado = 'CA', categoria = 'Varios', pesoVolumetrico = 0, tipoCliente = 'Normal') {
+  const descEnvioCliente = { 'Normal': 0, 'Recurrente': 0.005, 'Antiguo Recurrente': 0.01, 'Especial': 0.015 };
   const impuestos = { 'UT': 0.0665, 'NV': 0.08, 'TX': 0.0625, 'AL': 0.04, 'CA': 0.0825 };
   
   const neto = cantidad * precio;
@@ -44,8 +45,13 @@ function calcularTotal(cantidad, precio, estado = 'CA', categoria = 'Varios', pe
   const impuestoAplicado = netoConDescuento * tasaImpuesto;
 
   const costoEnvioUnitario = obtenerCostoEnvioUnitario(pesoVolumetrico);
-  const costoEnvioTotal = cantidad * costoEnvioUnitario;
   
+  const costoEnvioBase = cantidad * costoEnvioUnitario;
+  
+  const porcentajeDescuentoEnvio = descEnvioCliente[tipoCliente] || 0;
+  
+  const costoEnvioTotal = costoEnvioBase - (costoEnvioBase * porcentajeDescuentoEnvio);
+
   return Number((netoConDescuento + impuestoAplicado + costoEnvioTotal).toFixed(3));
 }
 

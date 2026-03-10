@@ -18,4 +18,7 @@ describe("Totalizador de Ventas", () => {
   it("deberia sumar el costo de envio multiplicando la cantidad por el costo segun el peso", () => {
     expect(calcularTotal(2, 10, 'CA', 'Varios', 15)).toEqual(28.65);
   });
+  it("deberia aplicar un descuento en el costo de envio si el cliente es Recurrente", () => {
+    expect(calcularTotal(2, 10, 'CA', 'Varios', 15, 'Recurrente')).toEqual(28.615);
+  });
 });

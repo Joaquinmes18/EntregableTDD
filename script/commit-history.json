@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1be6a3ce6ea18c94d48864f2afe97d8c2d436c7e",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-10T02:03:59.000Z",
       "message": "feat: sumar costo de envio usando tabla de peso volumetrico por cantidad",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/1be6a3ce6ea18c94d48864f2afe97d8c2d436c7e"
     },
     "stats": {
       "total": 20,
@@ -205,6 +205,25 @@
     },
     "coverage": 76.32,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Rubén Cordero",
+    "commit": {
+      "date": "2026-03-10T02:42:03.000Z",
+      "message": "feat: reducir costo de envio aplicando beneficios por tipo de cliente",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2026-03-10"
+    },
+    "coverage": 78.05,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

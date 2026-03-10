@@ -196,9 +196,31 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1be6a3ce6ea18c94d48864f2afe97d8c2d436c7e",
     "commitName": "feat: sumar costo de envio usando tabla de peso volumetrico por cantidad",
     "commitTimestamp": 1773108240663,
     "testId": 10
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1773108844435,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1773110460367,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: reducir costo de envio aplicando beneficios por tipo de cliente",
+    "commitTimestamp": 1773110525025,
+    "testId": 11
   }
 ]
