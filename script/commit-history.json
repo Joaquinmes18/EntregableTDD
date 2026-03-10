@@ -95,12 +95,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "54e2c5ae2d58476179849e434a10c446eeac429e",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-10T01:17:22.000Z",
       "message": "feat: calcular precio neto multiplicando cantidad por precio",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/54e2c5ae2d58476179849e434a10c446eeac429e"
     },
     "stats": {
       "total": 11,
@@ -112,5 +112,24 @@
     "test_count": 5,
     "failed_tests": 2,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Rubén Cordero",
+    "commit": {
+      "date": "2026-03-10T01:26:17.000Z",
+      "message": "fix: test calcular precio neto multiplicando cantidad por precio",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 3,
+      "deletions": 15,
+      "date": "2026-03-10"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

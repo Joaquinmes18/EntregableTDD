@@ -86,9 +86,15 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "54e2c5ae2d58476179849e434a10c446eeac429e",
     "commitName": "feat: calcular precio neto multiplicando cantidad por precio",
     "commitTimestamp": 1773105443823,
     "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: test calcular precio neto multiplicando cantidad por precio",
+    "commitTimestamp": 1773105978614,
+    "testId": 6
   }
 ]

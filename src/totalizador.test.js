@@ -1,7 +1,7 @@
 const calcularTotal = require('./totalizador');
 
-describe('Totalizador de Ventas', () => {
-  test('Debe calcular el precio neto multiplicando cantidad por precio', () => {
-    expect(calcularTotal(20, 3)).toBe(60);
+describe("Totalizador de Ventas", () => {
+  it("deberia calcular el precio neto multiplicando la cantidad por el precio", () => {
+    expect(calcularTotal(20, 3)).toEqual(60);
   });
 });
