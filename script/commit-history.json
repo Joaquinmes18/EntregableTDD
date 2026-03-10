@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5d9dd706c4410f7860ef7ed6a87d675f0d10621d",
     "author": "Rubén Cordero",
     "commit": {
       "date": "2026-03-10T02:00:45.000Z",
       "message": "feat: integrar categoria de producto con impuestos y descuentos adicionales",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/5d9dd706c4410f7860ef7ed6a87d675f0d10621d"
     },
     "stats": {
       "total": 29,
@@ -186,6 +186,25 @@
     },
     "coverage": 82.61,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Rubén Cordero",
+    "commit": {
+      "date": "2026-03-10T02:03:59.000Z",
+      "message": "feat: sumar costo de envio usando tabla de peso volumetrico por cantidad",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 18,
+      "deletions": 2,
+      "date": "2026-03-10"
+    },
+    "coverage": 76.32,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

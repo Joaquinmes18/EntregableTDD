@@ -15,4 +15,7 @@ describe("Totalizador de Ventas", () => {
   it("deberia sumar los descuentos e impuestos adicionales segun la categoria elegida", () => {
     expect(calcularTotal(20, 3, 'TX', 'Alimentos')).toEqual(62.475);
   });
+  it("deberia sumar el costo de envio multiplicando la cantidad por el costo segun el peso", () => {
+    expect(calcularTotal(2, 10, 'CA', 'Varios', 15)).toEqual(28.65);
+  });
 });

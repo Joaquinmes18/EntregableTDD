@@ -174,9 +174,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5d9dd706c4410f7860ef7ed6a87d675f0d10621d",
     "commitName": "feat: integrar categoria de producto con impuestos y descuentos adicionales",
     "commitTimestamp": 1773108046495,
     "testId": 9
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1773108148281,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1773108215624,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: sumar costo de envio usando tabla de peso volumetrico por cantidad",
+    "commitTimestamp": 1773108240663,
+    "testId": 10
   }
 ]
