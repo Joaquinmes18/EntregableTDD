@@ -64,9 +64,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d4130132effab945e6c766ac7203aa90582e27e4",
     "commitName": "implementacion de descuento",
     "commitTimestamp": 1772719355655,
     "testId": 4
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 2,
+    "numTotalTests": 4,
+    "timestamp": 1773105338954,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 2,
+    "numTotalTests": 5,
+    "timestamp": 1773105402038,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio neto multiplicando cantidad por precio",
+    "commitTimestamp": 1773105443823,
+    "testId": 5
   }
 ]

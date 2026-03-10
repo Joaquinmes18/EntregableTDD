@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d4130132effab945e6c766ac7203aa90582e27e4",
     "author": "Joaquinmes18",
     "commit": {
       "date": "2026-03-05T14:02:33.000Z",
       "message": "implementacion de descuento",
-      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/d4130132effab945e6c766ac7203aa90582e27e4"
     },
     "stats": {
       "total": 34,
@@ -91,6 +91,25 @@
     },
     "coverage": 57.69,
     "test_count": 4,
+    "failed_tests": 2,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Rubén Cordero",
+    "commit": {
+      "date": "2026-03-10T01:17:22.000Z",
+      "message": "feat: calcular precio neto multiplicando cantidad por precio",
+      "url": "https://github.com/Joaquinmes18/EntregableTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-03-10"
+    },
+    "coverage": 60.71,
+    "test_count": 5,
     "failed_tests": 2,
     "conclusion": "failure"
   }
