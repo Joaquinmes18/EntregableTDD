@@ -24,4 +24,7 @@ describe("Totalizador de Ventas", () => {
   it("deberia restar $100 si es Recurrente, compra Alimentos y el neto supera 3000", () => {
     expect(calcularTotal(1000, 4, 'CA', 'Alimentos', 0, 'Recurrente')).toEqual(3926.9);
   });
+  it("deberia lanzar un error 'Datos invalidos' si se introducen numeros negativos", () => {
+    expect(() => { calcularTotal(-5, 10) }).toThrow("Datos invalidos");
+  });
 });

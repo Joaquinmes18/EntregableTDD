@@ -240,9 +240,15 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9f6e5e7bab733f55514475927a6b786d8d1f9f3d",
     "commitName": "feat: aplicar descuentos de monto fijo bajo condiciones de cliente, precio y categoria",
     "commitTimestamp": 1773111018555,
     "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: lanzar error ante la introduccion de valores negativos en las entradas",
+    "commitTimestamp": 1773111472770,
+    "testId": 13
   }
 ]

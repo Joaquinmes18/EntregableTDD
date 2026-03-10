@@ -31,6 +31,11 @@ function obtenerCostoEnvioUnitario(peso) {
 }
 
 function calcularTotal(cantidad, precio, estado = 'CA', categoria = 'Varios', pesoVolumetrico = 0, tipoCliente = 'Normal') {
+  
+  if (cantidad < 0 || precio < 0 || pesoVolumetrico < 0) {
+    throw new Error("Datos invalidos");
+  }
+
   const descEnvioCliente = { 'Normal': 0, 'Recurrente': 0.005, 'Antiguo Recurrente': 0.01, 'Especial': 0.015 };
   const impuestos = { 'UT': 0.0665, 'NV': 0.08, 'TX': 0.0625, 'AL': 0.04, 'CA': 0.0825 };
   
